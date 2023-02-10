@@ -1,13 +1,14 @@
-import { View, ActivityIndicator } from 'react-native'
-import React from 'react'
+import React from 'react';
+import { View, ActivityIndicator } from 'react-native';
+
 import AuthRoutes from './auth.routes';
 
-function Routes() {
+function Routes(){
   const loading = false;
   const signed = false;
 
-  return (
-    signed ? <View></View> : <AuthRoutes />
+  return(
+    signed ? <View></View> : <AuthRoutes/>
   )
 }
 

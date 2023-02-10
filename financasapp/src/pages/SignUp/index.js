@@ -1,10 +1,10 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from 'react';
+import { View, Text } from 'react-native';
 
-export default function SignUp() {
-  return (
+export default function SignUp(){
+  return(
     <View>
-      <Text>Tela SignUp</Text>
+      <Text>TELA CADASTRO</Text>
     </View>
   )
 }
