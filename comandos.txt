@@ -4,3 +4,4 @@ npm i react-native-screens react-native-safe-area-context
 npm i @react-navigation/native-stack
 npm i styled-components
 npx prisma migrate dev
+yarn add react-native-reanimated
